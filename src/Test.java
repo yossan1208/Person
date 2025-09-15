@@ -25,6 +25,17 @@ public class Test {
 		yuki.phoneNumber = "333-3333-3333";
 		yuki.address = "大阪府";
 		
+		Robot aibo = new Robot();
+		aibo.name = "アイボ";
+		
+		Robot asimo = new Robot();
+		asimo.name = "アシモ";
+		
+		Robot pepper = new Robot();
+		pepper.name = "ペッパー";
+		
+//		出力
+//		---------------------------------
 		System.out.println(taro.name);
 		System.out.println(taro.age);
 		System.out.println(taro.phoneNumber);
@@ -60,5 +71,24 @@ public class Test {
 		yuki.talk();
 		yuki.walk();
 		yuki.run();
+		System.out.println();
+		
+		System.out.println(aibo.name);
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+		System.out.println();
+		
+		System.out.println(asimo.name);
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		System.out.println();
+		
+		System.out.println(pepper.name);
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
+		System.out.println();
 		}
 }
