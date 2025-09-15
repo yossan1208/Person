@@ -29,12 +29,18 @@ public class Test {
 		System.out.println(taro.age);
 		System.out.println(taro.phoneNumber);
 		System.out.println(taro.address);
+		taro.talk();
+		taro.walk();
+		taro.run();
 		System.out.println();
 		
 		System.out.println(ziro.name);
 		System.out.println(ziro.age);
 		System.out.println(ziro.phoneNumber);
 		System.out.println(ziro.address);
+		ziro.talk();
+		ziro.walk();
+		ziro.run();
 		System.out.println();
 		
 		
@@ -42,11 +48,17 @@ public class Test {
 		System.out.println(hanako.age);
 		System.out.println(hanako.phoneNumber);
 		System.out.println(hanako.address);
+		hanako.talk();
+		hanako.walk();
+		hanako.run();
 		System.out.println();
 		
 		System.out.println(yuki.name);
 		System.out.println(yuki.age);
 		System.out.println(yuki.phoneNumber);
 		System.out.println(yuki.address);
-	}
+		yuki.talk();
+		yuki.walk();
+		yuki.run();
+		}
 }
